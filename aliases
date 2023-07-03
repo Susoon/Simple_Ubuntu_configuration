@@ -1,0 +1,8 @@
+alias ta='tmux attach -t'
+alias taa='tmux a'
+alias tls='tmux ls'
+alias rg='rg -Ttags -Tcscope'
+
+export RIPGREP_CONFIG_PATH=~/.ripgreprc
+
+stty -ixon

@@ -84,6 +84,7 @@ set csto=0
 set hlsearch
 set cst
 set nocsverb
+set paste
 
 if filereadable("./cscope.out")
     cs add cscope.out

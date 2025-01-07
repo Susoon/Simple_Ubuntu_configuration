@@ -64,13 +64,13 @@ if has("syntax")
 endif
 set t_Co=256
 set wrap
-set autoindent
-set smartindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
 set paste
+set autoindent
+set smartindent
 set mouse-=a
 set encoding=utf-8
 set termencoding=utf-8
@@ -84,7 +84,6 @@ set csto=0
 set hlsearch
 set cst
 set nocsverb
-set paste
 
 if filereadable("./cscope.out")
     cs add cscope.out

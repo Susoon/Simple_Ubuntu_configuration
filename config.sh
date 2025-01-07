@@ -50,16 +50,6 @@ cp ./.tmux.conf ~/
 echo "cat ~/.bashrc ./aliases > ./.bashrc && mv ./.bashrc ~/"
 cat ~/.bashrc ./aliases > ./.bashrc && mv ./.bashrc ~/
 
-echo "Do you want to set ssh aliases? [y/n(default)]"
-read ssh_choice
-
-if [ "${ssh_choice}" == 'y' ]; then
-    echo "cat ~/.bashrc ./ssh_aliases > ./.bashrc && mv ./.bashrc ~/"
-    cat ~/.bashrc ./ssh_aliases > ./.bashrc && mv ./.bashrc ~/
-else
-    echo "Skip setup ssh aliases"
-fi
-
 source ~/.bashrc
 
 echo "cp ./.ripgreprc ~/"
